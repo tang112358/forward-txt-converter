@@ -1,0 +1,5 @@
+# 忽略测试用的输入输出文件
+input.txt
+output.txt
+__pycache__/
+*.pyc
