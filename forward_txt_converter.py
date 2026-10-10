@@ -45,8 +45,8 @@ if __name__ == '__main__':
         out_file = sys.argv[2]
     else:
         # 如果没传参数，就改这里
-        in_file = 'C:/Users/Lenovo/Downloads/真604斜井测井成果曲线数据体 (2).txt'
-        out_file = 'C:/Users/Lenovo/Downloads/真604斜井测井成果曲线_output.txt'
+        in_file = 'input.txt'
+        out_file = 'output.txt'
 
     forward_to_txt(in_file, out_file)
     print(f'转换完成：{in_file} -> {out_file}')
